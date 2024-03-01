@@ -1,0 +1,944 @@
+chrono; chrono; bench_datetime_parse_from_rfc2822/bench_datetime_parse_from_rfc2822; 31592
+chrono; chrono; bench_datetime_parse_from_rfc3339/bench_datetime_parse_from_rfc3339; 28060
+chrono; chrono; bench_datetime_from_str/bench_datetime_from_str; 39755
+chrono; chrono; bench_datetime_to_rfc2822/bench_datetime_to_rfc2822; 8585
+chrono; chrono; bench_datetime_to_rfc3339/bench_datetime_to_rfc3339; 11162
+chrono; chrono; bench_year_flags_from_year/bench_year_flags_from_year; 350054
+chrono; chrono; num_days_from_ce/new/1; 1212
+chrono; chrono; num_days_from_ce/classic/1; 264
+chrono; chrono; num_days_from_ce/new/500; 1212
+chrono; chrono; num_days_from_ce/classic/500; 264
+chrono; chrono; num_days_from_ce/new/2000; 1212
+chrono; chrono; num_days_from_ce/classic/2000; 264
+chrono; chrono; num_days_from_ce/new/2019; 1212
+chrono; chrono; num_days_from_ce/classic/2019; 264
+chrono; chrono; bench_get_local_time/bench_get_local_time; 209972
+chrono; serde; bench_ser_naivedatetime_writer/bench_ser_naivedatetime_writer; 27249
+chrono; serde; bench_ser_naivedatetime_string/bench_ser_naivedatetime_string; 26750
+itertools; bench1; slice/slice iter; 2889
+itertools; bench1; slice/slice iter rev; 2831
+itertools; bench1; zip/zip default zip; 111402
+itertools; bench1; zipdot/zipdot i32 default zip; 69179
+itertools; bench1; zipdot/zipdot f32 default zip; 66102
+itertools; bench1; zip/zip default zip3; 178198
+itertools; bench1; zip/zip slices ziptuple; 225806
+itertools; bench1; zipslices/zipslices; 147915
+itertools; bench1; zipslices/zipslices mut; 135709
+itertools; bench1; zipdot/zipdot i32 zipslices; 105692
+itertools; bench1; zipdot/zipdot f32 zipslices; 102618
+itertools; bench1; zip/zip checked counted loop; 126678
+itertools; bench1; zip/zipdot i32 checked counted loop; 82151
+itertools; bench1; zip/zipdot f32 checked counted loop; 82151
+itertools; bench1; zipdot/zipdot f32 checked counted unrolled loop; 42533
+itertools; bench1; zip/zip unchecked counted loop; 266825
+itertools; bench1; zipdot/zipdot i32 unchecked counted loop; 225370
+itertools; bench1; zipdot/zipdot f32 unchecked counted loop; 223066
+itertools; bench1; zip/zip unchecked counted loop3; 366560
+itertools; bench1; group/group by lazy 1; 833202
+itertools; bench1; group/group by lazy 2; 1242202
+itertools; bench1; slice/slice chunks; 168910
+itertools; bench1; chunk/chunks lazy 1; 825625
+itertools; bench1; equal/equal; 354656
+itertools; bench1; nerge/merge default; 864645
+itertools; bench1; merge/merge by cmp; 867870
+itertools; bench1; merge/merge by lt; 885492
+itertools; bench1; kmerge/kmerge default; 1004727
+itertools; bench1; kmerge/kmerge tenway; 15630432
+itertools; bench1; step/step vec 2; 104056
+itertools; bench1; step/step vec 10; 21438
+itertools; bench1; step/step range 2; 89526
+itertools; bench1; step/step range 10; 18360
+itertools; bench1; cartesian/cartesian product iterator; 1272549
+itertools; bench1; cartesian/cartesian product fold; 874324
+itertools; bench1; cartesian/multi cartesian product iterator; 12323271
+itertools; bench1; cartesian/multi cartesian product fold; 12429779
+itertools; bench1; cartesian/cartesian product nested for; 519190
+itertools; bench1; equal/all equal; 715000475
+itertools; bench1; equal/all equal for; 1070000571
+itertools; bench1; equal/all equal default; 2390000865
+itertools; bench1; permutations/permutations iter; 3771468
+itertools; bench1; permutations/permutations range; 3771429
+itertools; bench1; permutations/permutations slice; 3734329
+itertools; combinations; comb/comb for1; 110300372
+itertools; combinations; comb/comb for2; 111001783
+itertools; combinations; comb/comb for3; 114095328
+itertools; combinations; comb/comb for4; 114144772
+itertools; combinations; comb/comb c1; 265053206
+itertools; combinations; comb/comb c2; 278763301
+itertools; combinations; comb/comb c3; 318401212
+itertools; combinations; comb/comb c4; 350095820
+itertools; combinations; comb/comb c14; 855023843
+itertools; combinations_with_replacement; comb replacement/comb replacement n10k5; 8306776
+itertools; combinations_with_replacement; comb replacement/comb replacement n5 k10; 6323800
+itertools; combinations_with_replacement; comb replacement/comb replacement n10 k10; 546144136
+itertools; fold_specialization; specialization/external; 297431
+itertools; fold_specialization; specialization/internal specialized; 222756
+itertools; fold_specialization; specialization/internal unspecialized; 381363
+itertools; powerset; powerset 0/powerset 0; 18829572
+itertools; powerset; powerset 1/powerset 1; 17601001
+itertools; powerset; powerset 2/powerset 2; 15447894
+itertools; powerset; powerset 4/powerset 4; 14362505
+itertools; powerset; powerset 8/powerset 8; 16210073
+itertools; powerset; powerset 12/powerset 12; 18703767
+itertools; tree_fold1; sum/fold1 10k sum; 1550546
+itertools; tree_fold1; complex/fold1 10k complex iter; 3597118
+itertools; tree_fold1; string/fold1 10k string format; 41645661
+itertools; tree_fold1; sum/tree fold1 stack 10k sum; 2352931
+itertools; tree_fold1; complex/tree fold1 stack 10k complex iter; 5922942
+itertools; tree_fold1; string/tree fold1 stack 10k string format; 22538901
+itertools; tree_fold1; sum/tree fold1 vec 10k sum; 3691916
+itertools; tree_fold1; complex/tree fold1 vec 10k complex iter; 6262206
+itertools; tree_fold1; string/tree fold1 vec 10k string format; 22972324
+itertools; tree_fold1; sum/fold1 100 sum; 16046
+itertools; tree_fold1; complex/fold1 100 complex iter; 38068
+itertools; tree_fold1; string/fold1 100 string format; 201300
+itertools; tree_fold1; sum/tree fold1 stack 100 sum; 24014
+itertools; tree_fold1; complex/tree fold1 stack 100 complex iter; 59725
+itertools; tree_fold1; string/tree fold1 stack 100 string format; 196328
+itertools; tree_fold1; sum/tree fold1 vec 100 sum; 38892
+itertools; tree_fold1; complex/tree fold1 vec 100 complex iter; 64880
+itertools; tree_fold1; string/tree fold1 vec 100 string format; 201156
+itertools; tree_fold1; sum/fold1 08 sum; 1786
+itertools; tree_fold1; complex/fold1 08 complex iter; 3986
+itertools; tree_fold1; string/fold1 08 string format; 9740
+itertools; tree_fold1; sum/tree fold1 stack 08 sum; 2429
+itertools; tree_fold1; complex/tree fold1 stack 08 complex iter; 5296
+itertools; tree_fold1; string/tree fold1 stack 08 string format; 10006
+itertools; tree_fold1; sum/tree fold1 vec 08 sum; 5020
+itertools; tree_fold1; complex/tree fold1 vec 08 complex iter; 7362
+itertools; tree_fold1; string/tree fold1 vec 08 string format; 11759
+itertools; tuple_combinations; tuple/tuple comb for1; 11300239
+itertools; tuple_combinations; tuple/tuple comb for2; 11574543
+itertools; tuple_combinations; tuple/tuple comb for3; 12471572
+itertools; tuple_combinations; tuple/tuple comb for4; 13583662
+itertools; tuple_combinations; tuple/tuple comb c1; 15100294
+itertools; tuple_combinations; tuple/tuple comb c2; 28409367
+itertools; tuple_combinations; tuple/tuple comb c3; 39711378
+itertools; tuple_combinations; tuple/tuple comb c4; 52970073
+itertools; tuples; tuples/for chunks 1; 301258
+itertools; tuples; tuples/for windows 1; 299957
+itertools; tuples; tuples/tuple chunks 1; 265612
+itertools; tuples; tuple/slice chunks 1; 281349
+itertools; tuples; tuple/tuple windows 1; 184522
+itertools; tuples; tuple/slice windows 1; 320376
+itertools; tuples; tuples/for chunks 2; 313258
+itertools; tuples; tuples/for windows 2; 311633
+itertools; tuples; tuples/tuple chunks 2; 488680
+itertools; tuples; tuple/slice chunks 2; 293349
+itertools; tuples; tuple/tuple windows 2; 246370
+itertools; tuples; tuple/slice windows 2; 332044
+itertools; tuples; tuples/for chunks 3; 325258
+itertools; tuples; tuples/for windows 3; 323285
+itertools; tuples; tuples/tuple chunks 3; 715735
+itertools; tuples; tuple/slice chunks 3; 305349
+itertools; tuples; tuple/tuple windows 3; 301555
+itertools; tuples; tuple/slice windows 3; 343688
+itertools; tuples; tuples/for chunks 4; 337258
+itertools; tuples; tuples/for windows 4; 334913
+itertools; tuples; tuples/tuple chunks 4; 935798
+itertools; tuples; tuple/slice chunks 4; 317349
+itertools; tuples; tuple/tuple windows 4; 345398
+itertools; tuples; tuple/slice windows 4; 355308
+image; copy_from; copy/copy_from; 2525293060
+image; decode; load-Bmp/Core_1_Bit.bmp; 56282740
+image; decode; load-Bmp/Core_4_Bit.bmp; 61704826
+image; decode; load-Bmp/Core_8_Bit.bmp; 67865141
+image; decode; load-Bmp/rgb16.bmp; 10533331
+image; decode; load-Bmp/rgb24.bmp; 12223937
+image; decode; load-Bmp/rgb32.bmp; 16645250
+image; decode; load-Bmp/pal4rle.bmp; 4927082
+image; decode; load-Bmp/pal8rle.bmp; 4857230
+image; decode; load-Bmp/rgb16-565.bmp; 10536544
+image; decode; load-Bmp/rgb32bf.bmp; 10179360
+image; decode; load-Gif/alpha_gif_a.gif; 31771691
+image; decode; load-Gif/sample_1.gif; 182063
+image; decode; load-Hdr/image1.hdr; 19094664
+image; decode; load-Hdr/rgbr4x4.hdr; 262333
+image; decode; load-Ico/bmp-24bpp-mask.ico; 1785683
+image; decode; load-Ico/bmp-32bpp-alpha.ico; 2369309
+image; decode; load-Ico/png-32bpp-alpha.ico; 4253935
+image; decode; load-Ico/smile.ico; 970848
+image; decode; load-Jpeg/3.jpg; 1095898810
+image; decode; load-Jpeg/cat.jpg; 171569586
+image; decode; load-Jpeg/test.jpg; 4951357
+image; decode; load-Tga/cbw8.tga; 14801349
+image; decode; load-Tga/ctc24.tga; 33663658
+image; decode; load-Tga/ubw8.tga; 2005504
+image; decode; load-Tga/utc24.tga; 12606017
+image; decode; load-Tiff/hpredict.tiff; 4388098
+image; decode; load-Tiff/hpredict_packbits.tiff; 763007
+image; decode; load-Tiff/mandrill.tiff; 1948122
+image; decode; load-Tiff/rgb-3c-16b.tiff; 9180881
+image; encode; encode-bmp/zero-L8-rawvec/100; 4495287
+image; encode; encode-bmp/zero-L8-bufvec/100; 2805458
+image; encode; encode-bmp/zero-L8-file/100; 2804125
+image; encode; encode-bmp/zero-L8-rawvec/200; 17565587
+image; encode; encode-bmp/zero-L8-bufvec/200; 10934600
+image; encode; encode-bmp/zero-L8-file/200; 10929954
+image; encode; encode-bmp/zero-L8-rawvec/400; 69806187
+image; encode; encode-bmp/zero-L8-bufvec/400; 43407240
+image; encode; encode-bmp/zero-L8-file/400; 43389466
+image; encode; encode-bmp/zero-Rgb8-rawvec/100; 5341040
+image; encode; encode-bmp/zero-Rgb8-bufvec/100; 3698043
+image; encode; encode-bmp/zero-Rgb8-file/100; 3694832
+image; encode; encode-bmp/zero-Rgb8-rawvec/200; 21213940
+image; encode; encode-bmp/zero-Rgb8-bufvec/200; 14645051
+image; encode; encode-bmp/zero-Rgb8-file/200; 14631955
+image; encode; encode-bmp/zero-Rgb8-rawvec/400; 84579740
+image; encode; encode-bmp/zero-Rgb8-bufvec/400; 58307849
+image; encode; encode-bmp/zero-Rgb8-file/400; 58254588
+image; encode; encode-bmp/zero-Rgba8-rawvec/100; 5439096
+image; encode; encode-bmp/zero-Rgba8-bufvec/100; 3795847
+image; encode; encode-bmp/zero-Rgba8-file/100; 3791439
+image; encode; encode-bmp/zero-Rgba8-rawvec/200; 21581996
+image; encode; encode-bmp/zero-Rgba8-bufvec/200; 15022508
+image; encode; encode-bmp/zero-Rgba8-file/200; 15004523
+image; encode; encode-bmp/zero-Rgba8-rawvec/400; 86027796
+image; encode; encode-bmp/zero-Rgba8-bufvec/400; 59800911
+image; encode; encode-bmp/zero-Rgba8-file/400; 59730245
+image; encode; encode-jpeg/zero-L8-rawvec/64; 4595434
+image; encode; encode-jpeg/zero-L8-bufvec/64; 4586489
+image; encode; encode-jpeg/zero-L8-file/64; 4586678
+image; encode; encode-jpeg/zero-L8-rawvec/128; 18166155
+image; encode; encode-jpeg/zero-L8-bufvec/128; 18133329
+image; encode; encode-jpeg/zero-L8-file/128; 18133687
+image; encode; encode-jpeg/zero-L8-rawvec/256; 72443006
+image; encode; encode-jpeg/zero-L8-bufvec/256; 72315295
+image; encode; encode-jpeg/zero-L8-file/256; 72315560
+image; encode; encode-jpeg/zero-Rgb8-rawvec/64; 8852424
+image; encode; encode-jpeg/zero-Rgb8-bufvec/64; 8831834
+image; encode; encode-jpeg/zero-Rgb8-file/64; 8831790
+image; encode; encode-jpeg/zero-Rgb8-rawvec/128; 35121380
+image; encode; encode-jpeg/zero-Rgb8-bufvec/128; 35045337
+image; encode; encode-jpeg/zero-Rgb8-file/128; 35044827
+image; encode; encode-jpeg/zero-Rgb8-rawvec/256; 140191360
+image; encode; encode-jpeg/zero-Rgb8-bufvec/256; 139894231
+image; encode; encode-jpeg/zero-Rgb8-file/256; 139893918
+image; encode; encode-jpeg/zero-Rgba8-rawvec/64; 8729387
+image; encode; encode-jpeg/zero-Rgba8-bufvec/64; 8709067
+image; encode; encode-jpeg/zero-Rgba8-file/64; 8709224
+image; encode; encode-jpeg/zero-Rgba8-rawvec/128; 34629640
+image; encode; encode-jpeg/zero-Rgba8-bufvec/128; 34553809
+image; encode; encode-jpeg/zero-Rgba8-file/128; 34553826
+image; encode; encode-jpeg/zero-Rgba8-rawvec/256; 138225305
+image; encode; encode-jpeg/zero-Rgba8-bufvec/256; 137928036
+image; encode; encode-jpeg/zero-Rgba8-file/256; 137927614
+pulldown-cmark; html_rendering; tuple/crdt_total; 27116442
+pulldown-cmark; html_rendering; tuple/crdt_html; 14768164
+pulldown-cmark; html_rendering; tuple/crdt_all_options_parse; 14787974
+pulldown-cmark; html_rendering; tuple/crdt_parse; 13191629
+pulldown-cmark; html_rendering; tuple/smart_punctuation; 141824
+pulldown-cmark; html_rendering; tuple/links_n_emphasis; 207533
+pulldown-cmark; html_rendering; tuple/unescapes; 610619
+pulldown-cmark; html_rendering; tuple/autolinks_n_html; 316972
+pulldown-cmark; lib; pathological_codeblocks1/1; 51523
+pulldown-cmark; lib; pathological_codeblocks1/2; 186112
+pulldown-cmark; lib; pathological_codeblocks1/3; 327981
+pulldown-cmark; lib; pathological_codeblocks1/4; 505999
+pulldown-cmark; lib; pathological_codeblocks1/5; 724120
+pulldown-cmark; lib; pathological_codeblocks1/6; 989258
+pulldown-cmark; lib; pathological_codeblocks1/7; 1287773
+pulldown-cmark; lib; pathological_codeblocks1/8; 1626128
+pulldown-cmark; lib; pathological_codeblocks1/9; 2004903
+pulldown-cmark; lib; advanced_pathological_codeblocks/2; 82937
+pulldown-cmark; lib; advanced_pathological_codeblocks/3; 423517
+pulldown-cmark; lib; advanced_pathological_codeblocks/4; 2114383
+pulldown-cmark; lib; advanced_pathological_codeblocks/5; 10656044
+pulldown-cmark; markdown-it; markdown/inline-autolink.md; 573928
+pulldown-cmark; markdown-it; markdown/inline-em-flat.md; 490569
+pulldown-cmark; markdown-it; markdown/inline-em-nested.md; 402751
+pulldown-cmark; markdown-it; markdown/block-ref-flat.md; 809053
+pulldown-cmark; markdown-it; markdown/block-bq-nested.md; 298607
+pulldown-cmark; markdown-it; markdown/block-fences.md; 80449
+pulldown-cmark; markdown-it; markdown/block-lheading.md; 112693
+pulldown-cmark; markdown-it; markdown/block-code.md; 75646
+pulldown-cmark; markdown-it; markdown/inline-html.md; 998096
+pulldown-cmark; markdown-it; markdown/block-list-nested.md; 842153
+pulldown-cmark; markdown-it; markdown/rawtabs.md; 184190
+pulldown-cmark; markdown-it; markdown/lorem1.md; 831665
+pulldown-cmark; markdown-it; markdown/inline-newlines.md; 245585
+pulldown-cmark; markdown-it; markdown/block-bq-flat.md; 167825
+pulldown-cmark; markdown-it; markdown/block-list-flat.md; 939574
+pulldown-cmark; markdown-it; markdown/inline-links-nested.md; 894516
+pulldown-cmark; markdown-it; markdown/inline-backticks.md; 125485
+pulldown-cmark; markdown-it; markdown/block-hr.md; 73772
+pulldown-cmark; markdown-it; markdown/inline-links-flat.md; 759411
+pulldown-cmark; markdown-it; markdown/inline-entity.md; 950453
+pulldown-cmark; markdown-it; markdown/inline-em-worst.md; 438642
+pulldown-cmark; markdown-it; markdown/block-html.md; 278686
+pulldown-cmark; markdown-it; markdown/block-heading.md; 186304
+pulldown-cmark; markdown-it; markdown/inline-escape.md; 308038
+pulldown-cmark; markdown-it; markdown/block-ref-nested.md; 1142188
+tracing; baseline; comparison/relaxed_load; 267
+tracing; baseline; comparison/acquire_load; 267
+tracing; baseline; comparison/log; 263
+tracing; dispatch_get_clone; Dispatch::get_clone/none; 389
+tracing; dispatch_get_clone; Dispatch::get_clone/scoped; 1189
+tracing; dispatch_get_clone; Dispatch::get_clone/global; 390
+tracing; dispatch_get_ref; Dispatch::get_ref/none; 311
+tracing; dispatch_get_ref; Dispatch::get_ref/scoped; 964
+tracing; dispatch_get_ref; Dispatch::get_ref/global; 312
+tracing; empty_span; empty_span/none; 255
+tracing; empty_span; empty_span/scoped; 255
+tracing; empty_span; empty_span/global; 255
+tracing; empty_span; empty_span/baseline_struct; 316
+tracing; enter_span; enter_span/none; 251
+tracing; enter_span; enter_span/scoped; 345
+tracing; enter_span; enter_span/global; 313
+tracing; event; event/none; 276
+tracing; event; event/scoped; 4015
+tracing; event; event/scoped_recording; 7345
+tracing; event; event/global; 3339
+tracing; span_fields; span_fields/none; 473
+tracing; span_fields; span_fields/scoped; 5238
+tracing; span_fields; span_fields/scoped_recording; 28958
+tracing; span_fields; span_fields/global; 4366
+tracing; span_no_fields; span_no_fields/none; 396
+tracing; span_no_fields; span_no_fields/scoped; 4216
+tracing; span_no_fields; span_no_fields/scoped_recording; 4856
+tracing; span_no_fields; span_no_fields/global; 3344
+tracing; span_repeated; span_repeated/none; 30888
+tracing; span_repeated; span_repeated/scoped; 201686
+tracing; span_repeated; span_repeated/scoped_recording; 432778
+tracing; span_repeated; span_repeated/global; 113614
+tracing; trace; otel_many_children/spec_baseline; 2604925
+tracing; trace; otel_many_children/no_data_baseline; 3161598
+tracing; trace; otel_many_children/data_only_baseline; 3369794
+tracing; trace; otel_many_children/full; 12096414
+tracing; enter; enter/enabled; 4354
+tracing; enter; enter/disabled; 67
+tracing; enter; enter_exit/enabled; 10193
+tracing; enter; enter_exit/disabled; 267
+tracing; enter; enter_many/enabled; 3153
+tracing; enter; enter_many/disabled; 67
+tracing; fmt; new_span/single_thread/1; 90314
+tracing; fmt; new_span/multithreaded/1; 886884
+tracing; fmt; new_span/single_thread/10; 402690
+tracing; fmt; new_span/multithreaded/10; 886618
+tracing; fmt; new_span/single_thread/50; 1789380
+tracing; fmt; new_span/multithreaded/50; 887878
+tracing; fmt; event/root/single_threaded/1; 79122
+tracing; fmt; event/root/multithreaded/1; 886756
+tracing; fmt; event/unique_parent/single_threaded/1; 114865
+tracing; fmt; event/unique_parent/multithreaded/1; 885763
+tracing; fmt; event/shared_parent/multithreaded/1; 158822
+tracing; fmt; event/multi-parent/multithreaded/1; 159845
+tracing; fmt; event/root/single_threaded/10; 620856
+tracing; fmt; event/root/multithreaded/10; 886504
+tracing; fmt; event/unique_parent/single_threaded/10; 985471
+tracing; fmt; event/unique_parent/multithreaded/10; 886770
+tracing; fmt; event/shared_parent/multithreaded/10; 158003
+tracing; fmt; event/multi-parent/multithreaded/10; 158169
+tracing; fmt; event/root/single_threaded/50; 3056661
+tracing; fmt; event/root/multithreaded/50; 887002
+tracing; fmt; event/unique_parent/single_threaded/50; 4903889
+tracing; fmt; event/unique_parent/multithreaded/50; 887672
+tracing; fmt; event/shared_parent/multithreaded/50; 158198
+tracing; fmt; event/multi-parent/multithreaded/50; 159134
+tracing; bench; synchronous/single_thread; 66207
+tracing; bench; synchronous/multiple_writers; 22696
+tracing; bench; non_blocking/single_thread; 68608
+tracing; bench; non_blocking/multiple_writers; 17964
+tungstenite-rs; buffer; buffers/InputBuffer; 434996279
+tungstenite-rs; buffer; buffers/ReadBuffer (stack); 0
+tungstenite-rs; buffer; buffers/ReadBuffer (heap); 0
+handlebars-rust; bench; parse/parse_template; 2931832
+handlebars-rust; bench; render/render_template; 301100
+handlebars-rust; bench; loop/large_loop_helper; 27297624
+handlebars-rust; bench; loop/large_loop_helper_with_context_creation; 40767011
+handlebars-rust; bench; loop/large_nested_loop; 28864603
+rust-prometheus; atomic; atomic/atomic_f64; 347
+rust-prometheus; atomic; atomic/atomic_i64; 232
+rust-prometheus; counter; counter/counter_no_labels; 383
+rust-prometheus; counter; counter/counter_no_labels_concurrent_nop; 383
+rust-prometheus; counter; counter/counter_no_labels_concurrent_write; 383
+rust-prometheus; counter; counter/counter_with_label_values; 75308
+rust-prometheus; counter; counter/counter_with_label_values_concurrent_write; 4909
+rust-prometheus; counter; counter/counter_with_mapped_labels; 98606
+rust-prometheus; counter; counter/counter_with_prepared_mapped_labels; 88965
+rust-prometheus; counter; int/int_counter_no_labels; 278
+rust-prometheus; counter; int/int_counter_no_labels_concurrent_write; 278
+rust-prometheus; desc; description/description_validation; 48120
+rust-prometheus; gauge; gauge/gauge_with_label_values; 74424
+rust-prometheus; gauge; gauge/gauge_no_labels; 383
+rust-prometheus; gauge; gauge/int_gauge_no_labels; 269
+rust-prometheus; histogram; histogram/bench_histogram_with_label_values; 98087
+rust-prometheus; histogram; histogram/bench_histogram_no_labels; 3273
+rust-prometheus; histogram; histogram/bench_histogram_timer; 2113
+rust-prometheus; histogram; histogram/bench_histogram_local; 3176
+rust-prometheus; histogram; histogram/bench_local_histogram_timer; 9377
+rust-prometheus; histogram; concurrent/concurrent_observe_and_collect; 1248
+rust-prometheus; text_encoder; text_encoder_without_escaping/text_encoder_without_escaping; 3190515225
+rust-prometheus; text_encoder; text_encoder_with_escaping/text_encoder_with_escaping; 4726365331
+unicode-xid; xid; UnicodeXID/is_xid_start/unicode; 16815076
+unicode-xid; xid; UnicodeXID/is_xid_start/ascii; 29492
+unicode-xid; xid; UnicodeXID/is_xid_continue/unicode; 16512727
+unicode-xid; xid; UnicodeXID/is_xid_continue/ascii; 31351
+rust-base64; benchmarks; encode_small_input/encode/3; 2962
+rust-base64; benchmarks; encode_small_input/encode_display/3; 4900
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf/3; 3206
+rust-base64; benchmarks; encode_small_input/encode_slice/3; 1290
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf_stream/3; 2473
+rust-base64; benchmarks; encode_small_input/encode_string_stream/3; 4736
+rust-base64; benchmarks; encode_small_input/encode_string_reuse_buf_stream/3; 4638
+rust-base64; benchmarks; encode_small_input/encode/50; 7827
+rust-base64; benchmarks; encode_small_input/encode_display/50; 9921
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf/50; 8091
+rust-base64; benchmarks; encode_small_input/encode_slice/50; 5978
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf_stream/50; 9445
+rust-base64; benchmarks; encode_small_input/encode_string_stream/50; 13916
+rust-base64; benchmarks; encode_small_input/encode_string_reuse_buf_stream/50; 13302
+rust-base64; benchmarks; encode_small_input/encode/100; 13629
+rust-base64; benchmarks; encode_small_input/encode_display/100; 15326
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf/100; 13632
+rust-base64; benchmarks; encode_small_input/encode_slice/100; 11167
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf_stream/100; 14159
+rust-base64; benchmarks; encode_small_input/encode_string_stream/100; 18781
+rust-base64; benchmarks; encode_small_input/encode_string_reuse_buf_stream/100; 18376
+rust-base64; benchmarks; encode_small_input/encode/500; 55547
+rust-base64; benchmarks; encode_small_input/encode_display/500; 57676
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf/500; 55970
+rust-base64; benchmarks; encode_small_input/encode_slice/500; 51140
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf_stream/500; 54193
+rust-base64; benchmarks; encode_small_input/encode_string_stream/500; 60983
+rust-base64; benchmarks; encode_small_input/encode_string_reuse_buf_stream/500; 60499
+rust-base64; benchmarks; encode_small_input/encode/3072; 329027
+rust-base64; benchmarks; encode_small_input/encode_display/3072; 337712
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf/3072; 335982
+rust-base64; benchmarks; encode_small_input/encode_slice/3072; 307216
+rust-base64; benchmarks; encode_small_input/encode_reuse_buf_stream/3072; 314111
+rust-base64; benchmarks; encode_small_input/encode_string_stream/3072; 336540
+rust-base64; benchmarks; encode_small_input/encode_string_reuse_buf_stream/3072; 336039
+rust-base64; benchmarks; encode_large_input/encode/3145728; 329649066
+rust-base64; benchmarks; encode_large_input/encode_display/3145728; 337364887
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf/3145728; 337211059
+rust-base64; benchmarks; encode_large_input/encode_slice/3145728; 313132432
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf_stream/3145728; 320775001
+rust-base64; benchmarks; encode_large_input/encode_string_stream/3145728; 338808875
+rust-base64; benchmarks; encode_large_input/encode_string_reuse_buf_stream/3145728; 338841266
+rust-base64; benchmarks; encode_large_input/encode/10485760; 1098823450
+rust-base64; benchmarks; encode_large_input/encode_display/10485760; 1123274860
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf/10485760; 1122765773
+rust-base64; benchmarks; encode_large_input/encode_slice/10485760; 1043771485
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf_stream/10485760; 1069251010
+rust-base64; benchmarks; encode_large_input/encode_string_stream/10485760; 1128098016
+rust-base64; benchmarks; encode_large_input/encode_string_reuse_buf_stream/10485760; 1128206332
+rust-base64; benchmarks; encode_large_input/encode/31457280; 3296463781
+rust-base64; benchmarks; encode_large_input/encode_display/31457280; 3368734443
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf/31457280; 3367210988
+rust-base64; benchmarks; encode_large_input/encode_slice/31457280; 3131311504
+rust-base64; benchmarks; encode_large_input/encode_reuse_buf_stream/31457280; 3207742297
+rust-base64; benchmarks; encode_large_input/encode_string_stream/31457280; 3383189928
+rust-base64; benchmarks; encode_large_input/encode_string_reuse_buf_stream/31457280; 3383517896
+rust-base64; benchmarks; decode_small_input/decode/3; 3360
+rust-base64; benchmarks; decode_small_input/decode_reuse_buf/3; 3940
+rust-base64; benchmarks; decode_small_input/decode_slice/3; 2071
+rust-base64; benchmarks; decode_small_input/decode_stream/3; 7415
+rust-base64; benchmarks; decode_small_input/decode/50; 8400
+rust-base64; benchmarks; decode_small_input/decode_reuse_buf/50; 14000
+rust-base64; benchmarks; decode_small_input/decode_slice/50; 7148
+rust-base64; benchmarks; decode_small_input/decode_stream/50; 12488
+rust-base64; benchmarks; decode_small_input/decode/100; 12810
+rust-base64; benchmarks; decode_small_input/decode_reuse_buf/100; 22818
+rust-base64; benchmarks; decode_small_input/decode_slice/100; 11451
+rust-base64; benchmarks; decode_small_input/decode_stream/100; 16808
+rust-base64; benchmarks; decode_small_input/decode/500; 49418
+rust-base64; benchmarks; decode_small_input/decode_reuse_buf/500; 99011
+rust-base64; benchmarks; decode_small_input/decode_slice/500; 47913
+rust-base64; benchmarks; decode_small_input/decode_stream/500; 53356
+rust-base64; benchmarks; decode_small_input/decode/3072; 284921
+rust-base64; benchmarks; decode_small_input/decode_reuse_buf/3072; 587101
+rust-base64; benchmarks; decode_small_input/decode_slice/3072; 281301
+rust-base64; benchmarks; decode_small_input/decode_stream/3072; 299906
+rust-base64; benchmarks; decode_large_input/decode/3145728; 285478622
+rust-base64; benchmarks; decode_large_input/decode_reuse_buf/3145728; 596906100
+rust-base64; benchmarks; decode_large_input/decode_slice/3145728; 285477333
+rust-base64; benchmarks; decode_large_input/decode_stream/3145728; 304100216
+rust-base64; benchmarks; decode_large_input/decode/10485760; 951586526
+rust-base64; benchmarks; decode_large_input/decode_reuse_buf/10485760; 1989677172
+rust-base64; benchmarks; decode_large_input/decode_slice/10485760; 951585237
+rust-base64; benchmarks; decode_large_input/decode_stream/10485760; 1013660536
+rust-base64; benchmarks; decode_large_input/decode/31457280; 2854751966
+rust-base64; benchmarks; decode_large_input/decode_reuse_buf/31457280; 5969023092
+rust-base64; benchmarks; decode_large_input/decode_slice/31457280; 2854750677
+rust-base64; benchmarks; decode_large_input/decode_stream/31457280; 3040975736
+httparse; parse; req/req; 83921
+httparse; parse; req_short/req_short; 16319
+httparse; parse; resp/resp; 84923
+httparse; parse; resp_short/resp_short; 15054
+rust-hex; hex; tuple/hex_encode; 8677761
+rust-hex; hex; tuple/rustc_hex_encode; 8139170
+rust-hex; hex; tuple/faster_hex_encode; 877385
+rust-hex; hex; tuple/faster_hex_encode_fallback; 4369692
+rust-hex; hex; tuple/hex_decode; 14794539
+rust-hex; hex; tuple/rustc_hex_decode; 14062371
+rust-hex; hex; tuple/faster_hex_decode; 3461474
+rust-hex; hex; tuple/faster_hex_decode_unchecked; 2006990
+rust-hex; hex; tuple/faster_hex_decode_fallback; 4024271
+adler; bench; simple-100b/zeroes-100; 56049
+adler; bench; simple-100b/ones-100; 56049
+adler; bench; simple-1k/zeroes-1k; 537684
+adler; bench; simple-1k/ones-1k; 537684
+adler; bench; simple-1m/zeroes-1m; 546649082
+adler; bench; simple-1m/ones-1m; 546649082
+adler; bench; chunked-16m/5552; 8757058083
+adler; bench; chunked-16m/8k; 8753211763
+adler; bench; chunked-16m/64k; 8746951283
+adler; bench; chunked-16m/1m; 8746386083
+ahash; ahash; fallbackhash/u8; 1369
+ahash; ahash; fallbackhash/u16; 1366
+ahash; ahash; fallbackhash/u32; 1362
+ahash; ahash; fallbackhash/u64; 1360
+ahash; ahash; fallbackhash/u128; 1404
+ahash; ahash; fallbackhash/strings; 24735
+ahash; ahash; fx/u8; 1284
+ahash; ahash; fx/u16; 1281
+ahash; ahash; fx/u32; 1277
+ahash; ahash; fx/u64; 1273
+ahash; ahash; fx/u128; 2255
+ahash; ahash; fx/strings; 74345
+ahash; ahash; fnv/u8; 1528
+ahash; ahash; fnv/u16; 1645
+ahash; ahash; fnv/u32; 1860
+ahash; ahash; fnv/u64; 2294
+ahash; ahash; fnv/u128; 3185
+ahash; ahash; fnv/strings; 154735
+ahash; ahash; sea/u8; 1761
+ahash; ahash; sea/u16; 1811
+ahash; ahash; sea/u32; 1800
+ahash; ahash; sea/u64; 1628
+ahash; ahash; sea/u128; 1726
+ahash; ahash; sea/strings; 25225
+ahash; ahash; sip/u8; 1878
+ahash; ahash; sip/u16; 1893
+ahash; ahash; sip/u32; 1883
+ahash; ahash; sip/u64; 1974
+ahash; ahash; sip/u128; 2157
+ahash; ahash; sip/strings; 33855
+ahash; ahash; map/aHash-alias; 3003878931
+ahash; ahash; map/aHash-hashBrown; 3027074240
+ahash; ahash; map/aHash-hashBrown-explicit; 3026978816
+ahash; ahash; map/aHash-wrapper; 3009857314
+ahash; ahash; map/aHash-rand; 3003877959
+ahash; ahash; map/aHash-default; 3216910390
+ahash; map; words/aes_words; 727363663
+ahash; map; words/fx_words; 1251939731
+bumpalo; benches; alloc/small; 5241885
+bumpalo; benches; alloc/big; 11311805
+bumpalo; benches; alloc-with/small; 5081858
+bumpalo; benches; alloc-with/big; 10201805
+bumpalo; benches; alloc-try-with/small, small; 6631859
+bumpalo; benches; alloc-try-with/small, big; 20950621
+bumpalo; benches; alloc-try-with/big, small; 21520633
+bumpalo; benches; alloc-try-with/big, big; 15010621
+bumpalo; benches; alloc-try-with-err/small, small; 8401535
+bumpalo; benches; alloc-try-with-err/small, big; 26541666
+bumpalo; benches; alloc-try-with-err/big, small; 20161666
+bumpalo; benches; alloc-try-with-err/big, big; 17491666
+bumpalo; benches; try-alloc/small; 5291870
+bumpalo; benches; try-alloc/big; 11361805
+bumpalo; benches; try-alloc-with/small; 5131932
+bumpalo; benches; try-alloc-with/big; 10251883
+bumpalo; benches; try-alloc-try-with/small, small; 6951847
+bumpalo; benches; try-alloc-try-with/small, big; 21270641
+bumpalo; benches; try-alloc-try-with/big, small; 21840621
+bumpalo; benches; try-alloc-try-with/big, big; 15330555
+bumpalo; benches; try-alloc-try-with-err/small, small; 8781535
+bumpalo; benches; try-alloc-try-with-err/small, big; 27461668
+bumpalo; benches; try-alloc-try-with-err/big, small; 20541668
+bumpalo; benches; try-alloc-try-with-err/big, big; 18371535
+bumpalo; benches; format-realloc/format-realloc/10; 11841
+bumpalo; benches; format-realloc/format-realloc/80; 11843
+bumpalo; benches; format-realloc/format-realloc/270; 11843
+bumpalo; benches; format-realloc/format-realloc/640; 11843
+quick-xml; macrobenches; parse_document_nocopy/rpm_primary.xml; 12335155
+quick-xml; macrobenches; parse_document_nocopy/rpm_primary2.xml; 3904282
+quick-xml; macrobenches; parse_document_nocopy/rpm_filelists.xml; 4783224
+quick-xml; macrobenches; parse_document_nocopy/rpm_other.xml; 12138758
+quick-xml; macrobenches; parse_document_nocopy/libreoffice_document.fodt; 30743132
+quick-xml; macrobenches; parse_document_nocopy/document.xml; 9947325
+quick-xml; macrobenches; parse_document_nocopy/test_writer_ident.xml; 2495600
+quick-xml; macrobenches; parse_document_nocopy/sample_1.xml; 670912
+quick-xml; macrobenches; parse_document_nocopy/linescore.xml; 3750881
+quick-xml; macrobenches; parse_document_nocopy/sample_ns.xml; 529452
+quick-xml; macrobenches; parse_document_nocopy/sample_rss.xml; 50578889
+quick-xml; macrobenches; parse_document_nocopy/players.xml; 18836290
+quick-xml; macrobenches; decode_and_parse_document/rpm_primary.xml; 13049815
+quick-xml; macrobenches; decode_and_parse_document/rpm_primary2.xml; 4126488
+quick-xml; macrobenches; decode_and_parse_document/rpm_filelists.xml; 5207390
+quick-xml; macrobenches; decode_and_parse_document/rpm_other.xml; 12502892
+quick-xml; macrobenches; decode_and_parse_document/libreoffice_document.fodt; 31883311
+quick-xml; macrobenches; decode_and_parse_document/document.xml; 10334859
+quick-xml; macrobenches; decode_and_parse_document/test_writer_ident.xml; 2561720
+quick-xml; macrobenches; decode_and_parse_document/sample_1.xml; 710612
+quick-xml; macrobenches; decode_and_parse_document/linescore.xml; 3775096
+quick-xml; macrobenches; decode_and_parse_document/sample_ns.xml; 561946
+quick-xml; macrobenches; decode_and_parse_document/sample_rss.xml; 53892898
+quick-xml; macrobenches; decode_and_parse_document/players.xml; 18934608
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/rpm_primary.xml; 18178697
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/rpm_primary2.xml; 5680754
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/rpm_filelists.xml; 6802552
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/rpm_other.xml; 18414514
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/libreoffice_document.fodt; 57159861
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/document.xml; 16709855
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/test_writer_ident.xml; 4142904
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/sample_1.xml; 942339
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/linescore.xml; 5413665
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/sample_ns.xml; 828431
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/sample_rss.xml; 78324688
+quick-xml; macrobenches; parse_document_nocopy_with_namespaces/players.xml; 26682603
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/rpm_primary.xml; 18884180
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/rpm_primary2.xml; 5903721
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/rpm_filelists.xml; 7239588
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/rpm_other.xml; 18769576
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/libreoffice_document.fodt; 58307909
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/document.xml; 17099998
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/test_writer_ident.xml; 4209601
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/sample_1.xml; 981856
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/linescore.xml; 5438180
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/sample_ns.xml; 860897
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/sample_rss.xml; 81642961
+quick-xml; macrobenches; decode_and_parse_document_with_namespaces/players.xml; 26799096
+quick-xml; microbenches; read_event/trim_text = false; 21427315
+quick-xml; microbenches; read_event/trim_text = true; 24164545
+quick-xml; microbenches; NsReader::read_resolved_event_into/trim_text = false; 48684102
+quick-xml; microbenches; NsReader::read_resolved_event_into/trim_text = true; 51066540
+quick-xml; microbenches; One event/Start; 23303
+quick-xml; microbenches; One event/Comment; 20267
+quick-xml; microbenches; One event/CData; 10955
+quick-xml; microbenches; attributes/with_checks = true; 16812980
+quick-xml; microbenches; attributes/with_checks = false; 12602373
+quick-xml; microbenches; attributes/try_get_attribute; 22496250
+quick-xml; microbenches; escape_text/no_chars_to_escape_long; 180012
+quick-xml; microbenches; escape_text/no_chars_to_escape_short; 3052
+quick-xml; microbenches; escape_text/escaped_chars_short; 21050
+quick-xml; microbenches; escape_text/escaped_chars_long; 193432
+quick-xml; microbenches; unescape_text/no_chars_to_unescape_long; 17986
+quick-xml; microbenches; unescape_text/no_chars_to_unescape_short; 1904
+quick-xml; microbenches; unescape_text/char_reference; 40855
+quick-xml; microbenches; unescape_text/entity_reference; 34696
+quick-xml; microbenches; unescape_text/mixed; 58700
+curve25519-dalek; dalek_benchmarks; scalar/Scalar inversion; 1051687
+curve25519-dalek; dalek_benchmarks; batch scalar inversion/Batch scalar inversion/1; 1095292
+curve25519-dalek; dalek_benchmarks; batch scalar inversion/Batch scalar inversion/2; 1126888
+curve25519-dalek; dalek_benchmarks; batch scalar inversion/Batch scalar inversion/4; 1189274
+curve25519-dalek; dalek_benchmarks; batch scalar inversion/Batch scalar inversion/8; 1314578
+curve25519-dalek; dalek_benchmarks; batch scalar inversion/Batch scalar inversion/16; 1565348
+curve25519-dalek; dalek_benchmarks; montgomery/Montgomery pseudomultiplication; 2228456
+curve25519-dalek; dalek_benchmarks; ristretto/RistrettoPoint compression; 96272
+curve25519-dalek; dalek_benchmarks; ristretto/RistrettoPoint decompression; 107564
+curve25519-dalek; dalek_benchmarks; double & compress batched/Batch Ristretto double-and-encode/1; 104533
+curve25519-dalek; dalek_benchmarks; double & compress batched/Batch Ristretto double-and-encode/2; 132018
+curve25519-dalek; dalek_benchmarks; double & compress batched/Batch Ristretto double-and-encode/4; 186254
+curve25519-dalek; dalek_benchmarks; double & compress batched/Batch Ristretto double-and-encode/8; 294830
+curve25519-dalek; dalek_benchmarks; double & compress batched/Batch Ristretto double-and-encode/16; 511578
+curve25519-dalek; dalek_benchmarks; edwards/EdwardsPoint compression; 65492
+curve25519-dalek; dalek_benchmarks; edwards/EdwardsPoint decompression; 90871
+curve25519-dalek; dalek_benchmarks; edwards/Constant-time fixed-base scalar mul; 863067
+curve25519-dalek; dalek_benchmarks; edwards/Constant-time variable-base scalar mul; 2200151
+curve25519-dalek; dalek_benchmarks; edwards/Variable-time aA+bB, A variable, B fixed; 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/1; 2341746
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/2; 3362248
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/4; 5404402
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/8; 9486892
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/16; 17655547
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/32; 33992774
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/64; 66666933
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/128; 132015347
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/256; 262711921
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/384; 393408431
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/512; 524104819
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/768; 785498095
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Constant-time variable-base multiscalar multiplication/1024; 1046890956
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/1; 1757029
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/2; 2147716
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/4; 2877939
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/8; 4343233
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/16; 7424110
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/32; 13340544
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/64; 25207817
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/128; 49080488
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/256; 96343946
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/384; 133276439
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/512; 166415894
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/768; 230261283
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time variable-base multiscalar multiplication/1024; 293256586
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/1; 1590946
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/2; 1916404
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/4; 2537926
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/8; 3787017
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/16; 6372885
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/32; 11562157
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/64; 21858787
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/128; 42322856
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/256; 83485590
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/384; 124724785
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/512; 166145613
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/768; 248475305
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time fixed-base multiscalar multiplication/1024; 331418064
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 2), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 4), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 8), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 16), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 32), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 64), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 128), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 256), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 384), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 512), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 768), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1024), (0pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 2), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 4), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 8), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 16), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 32), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 64), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 128), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 256), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 384), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 512), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 768), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1024), (20pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 2), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 4), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 8), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 16), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 32), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 64), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 128), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 256), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 384), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 512), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 768), (50pct dyn); 0
+curve25519-dalek; dalek_benchmarks; Multiscalar multiplications/Variable-time mixed-base/(size: 1024), (50pct dyn); 0
+plotters; benchmark; quartiles/data::quartiles_calc; 499049540
+rust-typed-arena; benches; allocate/allocate-small/1000; 615140
+rust-typed-arena; benches; allocate/allocate-big/1000; 1012834
+rust-typed-arena; benches; allocate/allocate-small/2000; 1221535
+rust-typed-arena; benches; allocate/allocate-big/2000; 1999386
+rust-typed-arena; benches; allocate/allocate-small/3000; 1825544
+rust-typed-arena; benches; allocate/allocate-big/3000; 2987592
+rust-typed-arena; benches; allocate/allocate-small/4000; 2433778
+rust-typed-arena; benches; allocate/allocate-big/4000; 3970395
+async-io; io; read_and_write/TcpStream.Undriven; 8693
+async-io; io; read_and_write/UnixStream.Undriven; 5003
+async-io; io; read_and_write/TcpStream.Driven; 10290
+async-io; io; read_and_write/UnixStream.Driven; 6564
+async-io; io; connect_and_accept/TcpStream.Undriven; 23637
+async-io; io; connect_and_accept/UnixStream.Undriven; 29003
+async-io; io; connect_and_accept/TcpStream.Driven; 44746
+async-io; io; connect_and_accept/UnixStream.Driven; 45178
+async-io; io; udp_send_recv/UdpSocket.Undriven; 5537
+async-io; io; udp_send_recv/UdpSocket.Driven; 7259
+image-png; decoder; decode/Lohengrin_-_Illustrated_Sporting_and_Dramatic_News.png; 14701200541
+image-png; decoder; decode/Transparency.png; 417679930
+image-png; decoder; decode/kodim23.png; 1790531753
+image-png; decoder; decode/kodim02.png; 1842622410
+image-png; decoder; decode/kodim17.png; 1648927436
+image-png; decoder; decode/kodim07.png; 1928115443
+parity-common; cmp; eq_self/0x0000…0000; 409
+parity-common; cmp; eq_self/0xaaaa…aaaa; 409
+parity-common; cmp; eq_self/0x0000…1106; 409
+parity-common; cmp; eq_self/0xffff…ffff; 409
+parity-common; cmp; eq_nonequal/0x0000…0000; 406
+parity-common; cmp; eq_nonequal/0xaaaa…aaaa; 406
+parity-common; cmp; eq_nonequal/0x0000…1106; 406
+parity-common; cmp; compare/0x0000…0001; 367
+parity-common; cmp; compare/0x0000…0000; 378
+parity-common; cmp; compare/0xaaaa…aaaa; 378
+parity-common; cmp; compare/0xa1a1…a1a1; 374
+parity-common; cmp; compare/0x0000…1106; 374
+parity-common; keccak_256; keccak/keccak_256_with_empty_input; 25803
+parity-common; keccak_256; keccak_256_with_typical_input/regular; 31216
+parity-common; keccak_256; keccak_256_with_typical_input/inplace; 31204
+parity-common; keccak_256; keccak_256_with_typical_input/inplace_range; 31313
+parity-common; keccak_256; keccak/keccak_256_with_large_input; 1163188
+parity-common; rlp; encode/encode_u64; 6453
+parity-common; rlp; encode/encode_u256; 29422
+parity-common; rlp; encode/encode_1000_u64; 1692365
+parity-common; rlp; encode/encode_nested_empty_lists; 7264
+parity-common; rlp; encode/encode_1000_empty_lists; 473480
+parity-common; rlp; decode/decode_u64; 3463
+parity-common; rlp; decode/decode_u256; 3959
+parity-common; rlp; decode/decode_1000_u64; 2623890
+parity-common; rlp; decode/decode_nested_empty_lists; 18517
+parity-common; rlp; decode/decode_1000_empty_lists; 3404843
+parity-common; bigint; u256_add/0; 545
+parity-common; bigint; u256_add/18446744073709551615; 564
+parity-common; bigint; u256_add/42; 545
+parity-common; bigint; hex_to_bytes/115792089237316195423570985008687907853269984665640564039457584007913129639935; 506
+parity-common; bigint; hex_to_bytes/3; 506
+parity-common; bigint; u256_mul/1; 2059
+parity-common; bigint; u256_mul/18446744073709551615; 2059
+parity-common; bigint; u256_mul/173; 2059
+parity-common; bigint; hex_to_bytes/1; 1982
+parity-common; bigint; hex_to_bytes/18446744073709551615; 1982
+parity-common; bigint; u256/u256_div; 8227
+parity-common; bigint; u512_div_mod/1; 4805
+parity-common; bigint; u512_div_mod/4294967295; 5410
+parity-common; bigint; u512_div_mod/18446744073709551614; 5410
+parity-common; bigint; u512_div_mod/21674844646682989462120101885968193938394323990565507610662749; 13450
+parity-common; bigint; u512_div_mod/1942668892225729070919461906823518906642406839052139521251812409738904285205208498160; 13452
+parity-common; bigint; u512_div_mod/452312848583266388373324160190187140051835877600158453279131187530910662640; 28106
+parity-common; bigint; u256_rem/115792089237316195423570985008687907853269984665640564039457584007913129639935; 2724
+parity-common; bigint; u256_rem/18446744073709551615; 2941
+parity-common; bigint; u256_rem/3759751734479964094783137206182536765532905409829204647089173492; 8262
+parity-common; bigint; u256_rem/452312848583266388373324160190187140051835877600158453279131187530910662655; 8265
+parity-common; bigint; u256_integer_sqrt/18446744073709551615; 16114
+parity-common; bigint; u256_integer_sqrt/340282366920938463463374607431768211456; 101902
+parity-common; bigint; u256_integer_sqrt/115792089237316195423570985008687907851908855197956810185604085578186056794115; 46121
+parity-common; bigint; u256_integer_sqrt/115792089237316195423570985008687907853269984665640564039457584007913129639935; 30422
+parity-common; bigint; u128/u256_bit_and; 826
+parity-common; bigint; u256/u256_bit_or; 826
+parity-common; bigint; u256/u256_bit_xor; 826
+parity-common; bigint; u256/u256_not; 778
+parity-common; bigint; u256/u256_ord; 1130
+parity-common; bigint; u256/u256_shl; 1043
+parity-common; bigint; u256/u256_shr; 1041
+parity-common; bigint; u256/u256_from_le; 2670
+parity-common; bigint; u256/u256_from_be; 2699
+parity-common; bigint; u512_add/0; 725
+parity-common; bigint; u512_add/4294967296; 744
+parity-common; bigint; u512_add/2509775545533681938531634693550336058513267531466322737295860731181474557874722260395092034...; 0
+parity-common; bigint; u512_add/452312848583266388373324160190187140051835877600158453279131187530910662640; 782
+parity-common; bigint; u512_sub/0; 675
+parity-common; bigint; u512_sub/4294967296; 675
+parity-common; bigint; u512_sub/2509775545533681938531634693550336058513267531466322737295860731181474557874722260395092034...; 0
+parity-common; bigint; u512_sub/452312848583266388373324160190187140051835877600158453279131187530910662640; 675
+parity-common; bigint; u512_mul/0; 2922
+parity-common; bigint; u512_mul/4294967296; 2922
+parity-common; bigint; u512_mul/2509775545533681938531634693550336058513267531466322737295860731181474557874722260395092034...; 0
+parity-common; bigint; u512_mul/452312848583266388373324160190187140051835877600158453279131187530910662640; 4770
+parity-common; bigint; u512/u512_div; 13357
+parity-common; bigint; u512/u512_rem; 13430
+parity-common; bigint; u512_integer_sqrt/4294967296; 63911
+parity-common; bigint; u512_integer_sqrt/18446744073709551615; 29790
+parity-common; bigint; u512_integer_sqrt/115792089237316195423570985008687907853269984665640564039457584007913129639936; 213568
+parity-common; bigint; u512_integer_sqrt/1340780792994259709957402499820584612747936582059239337772356144372176403007331539...; 0
+parity-common; bigint; u512_integer_sqrt/1340780792994259709957402499820584612747936582059239337772356144372176403007354697...; 0
+parity-common; bigint; multiply u512 by u32 vs u64/u32/1; 1569
+parity-common; bigint; multiply u512 by u32 vs u64/u64/1; 1568
+parity-common; bigint; multiply u512 by u32 vs u64/u32/42; 1569
+parity-common; bigint; multiply u512 by u32 vs u64/u64/42; 1568
+parity-common; bigint; multiply u512 by u32 vs u64/u32/10000001; 1569
+parity-common; bigint; multiply u512 by u32 vs u64/u64/10000001; 1568
+parity-common; bigint; multiply u512 by u32 vs u64/u32/4294967295; 1569
+parity-common; bigint; multiply u512 by u32 vs u64/u64/4294967295; 1568
+parity-common; bigint; mulmod u512 vs biguint vs gmp/u512/1; 9240
+parity-common; bigint; mulmod u512 vs biguint vs gmp/BigUint/1; 47626
+parity-common; bigint; mulmod u512 vs biguint vs gmp/GMP/1; 8485
+parity-common; bigint; mulmod u512 vs biguint vs gmp/u512/10000001; 9240
+parity-common; bigint; mulmod u512 vs biguint vs gmp/BigUint/10000001; 50079
+parity-common; bigint; mulmod u512 vs biguint vs gmp/GMP/10000001; 9567
+parity-common; bigint; mulmod u512 vs biguint vs gmp/u512/18446744073709551615; 9240
+parity-common; bigint; mulmod u512 vs biguint vs gmp/BigUint/18446744073709551615; 52336
+parity-common; bigint; mulmod u512 vs biguint vs gmp/GMP/18446744073709551615; 9650
+parity-common; bigint; mulmod u512 vs biguint vs gmp/u512/45231284858326638837332416019018714005183587760015845327913118753...; 0
+parity-common; bigint; mulmod u512 vs biguint vs gmp/BigUint/45231284858326638837332416019018714005183587760015845327913118...; 0
+parity-common; bigint; mulmod u512 vs biguint vs gmp/GMP/452312848583266388373324160190187140051835877600158453279131187530...; 0
+parity-common; bigint; conversions biguint vs gmp/BigUint/0; 15766
+parity-common; bigint; conversions biguint vs gmp/GMP/0; 5953
+parity-common; bigint; conversions biguint vs gmp/BigUint/42; 16349
+parity-common; bigint; conversions biguint vs gmp/GMP/42; 7269
+parity-common; bigint; conversions biguint vs gmp/BigUint/18446744073709551615; 16837
+parity-common; bigint; conversions biguint vs gmp/GMP/18446744073709551615; 7191
+parity-common; bigint; u512/u512_bit_and; 1355
+parity-common; bigint; u512/u512_bit_or; 1355
+parity-common; bigint; u512/u512_bit_xor; 1355
+parity-common; bigint; u512/u512_not; 1261
+parity-common; bigint; u512/u512_ord; 1196
+parity-common; bigint; u512/u512_shl; 1937
+parity-common; bigint; u512/u512_shr; 1937
+parity-common; bigint; u128/u128_mul; 262
+parity-common; bigint; u128_div/100; 441
+parity-common; bigint; u128_div/99; 521
+parity-common; bigint; u128_div/100500; 521
+parity-common; bigint; from/from_fixed_array; 7323
+parity-common; bigint; from/from_str; 74989
+parity-common; bloom; accrue/accrue_raw; 58978
+parity-common; bloom; accrue/accrue_hash; 2431
+parity-common; bloom; contains/contains_input_raw; 114821
+parity-common; bloom; contains/contains_input_hash; 58274
+parity-common; bloom; not contain/does_not_contain_raw; 64405
+parity-common; bloom; not contain/does_not_contain_hash; 11978
+parity-common; bloom; not contain/does_not_contain_random_hash; 2152788
+parity-common; unrolling; forward/forwards_with_crunchy; 72641
+parity-common; unrolling; forward/forwards_without_crunchy; 97932
+parity-common; unrolling; backwards/backwards_with_crunchy; 72641
+parity-common; unrolling; backwards/backwards_without_crunchy; 99717
+bytecount; bench; counts/naive/0; 428
+bytecount; bench; counts/naive_32/0; 428
+bytecount; bench; counts/hyper/0; 448
+bytecount; bench; counts/naive/10; 1698
+bytecount; bench; counts/naive_32/10; 1698
+bytecount; bench; counts/hyper/10; 671
+bytecount; bench; counts/naive/20; 2968
+bytecount; bench; counts/naive_32/20; 2968
+bytecount; bench; counts/hyper/20; 831
+bytecount; bench; counts/naive/30; 4238
+bytecount; bench; counts/naive_32/30; 4238
+bytecount; bench; counts/hyper/30; 991
+bytecount; bench; counts/naive/40; 5508
+bytecount; bench; counts/naive_32/40; 5508
+bytecount; bench; counts/hyper/40; 1218
+bytecount; bench; counts/naive/50; 6778
+bytecount; bench; counts/naive_32/50; 6778
+bytecount; bench; counts/hyper/50; 1471
+bytecount; bench; counts/naive/60; 8048
+bytecount; bench; counts/naive_32/60; 8048
+bytecount; bench; counts/hyper/60; 1631
+bytecount; bench; counts/naive/70; 9318
+bytecount; bench; counts/naive_32/70; 9318
+bytecount; bench; counts/hyper/70; 1791
+bytecount; bench; counts/naive/80; 10588
+bytecount; bench; counts/naive_32/80; 10588
+bytecount; bench; counts/hyper/80; 2018
+bytecount; bench; counts/naive/90; 11858
+bytecount; bench; counts/naive_32/90; 11858
+bytecount; bench; counts/hyper/90; 2271
+bytecount; bench; counts/naive/100; 13128
+bytecount; bench; counts/naive_32/100; 13128
+bytecount; bench; counts/hyper/100; 2431
+bytecount; bench; counts/naive/120; 15668
+bytecount; bench; counts/naive_32/120; 15668
+bytecount; bench; counts/hyper/120; 2818
+bytecount; bench; counts/naive/140; 18208
+bytecount; bench; counts/naive_32/140; 18208
+bytecount; bench; counts/hyper/140; 3231
+bytecount; bench; counts/naive/170; 22018
+bytecount; bench; counts/naive_32/170; 22018
+bytecount; bench; counts/hyper/170; 3871
+bytecount; bench; counts/naive/210; 27098
+bytecount; bench; counts/naive_32/210; 27098
+bytecount; bench; counts/hyper/210; 4671
+bytecount; bench; counts/naive/250; 32178
+bytecount; bench; counts/naive_32/250; 32178
+bytecount; bench; counts/hyper/250; 5471
+bytecount; bench; counts/naive/300; 38528
+bytecount; bench; counts/naive_32/300; 38528
+bytecount; bench; counts/hyper/300; 6431
+bytecount; bench; counts/naive/400; 51228
+bytecount; bench; counts/naive_32/400; 51228
+bytecount; bench; counts/hyper/400; 8418
+bytecount; bench; counts/naive/500; 63928
+bytecount; bench; counts/naive_32/500; 63928
+bytecount; bench; counts/hyper/500; 10431
+bytecount; bench; counts/naive/600; 76628
+bytecount; bench; counts/naive_32/600; 76628
+bytecount; bench; counts/hyper/600; 12418
+bytecount; bench; counts/naive/700; 89328
+bytecount; bench; counts/naive_32/700; 89328
+bytecount; bench; counts/hyper/700; 14431
+bytecount; bench; counts/naive/800; 102028
+bytecount; bench; counts/naive_32/800; 102028
+bytecount; bench; counts/hyper/800; 16418
+bytecount; bench; counts/naive/900; 114728
+bytecount; bench; counts/naive_32/900; 114728
+bytecount; bench; counts/hyper/900; 18431
+bytecount; bench; counts/naive/1000; 127428
+bytecount; bench; counts/naive_32/1000; 127428
+bytecount; bench; counts/hyper/1000; 20418
